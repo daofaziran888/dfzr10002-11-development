@@ -33,3 +33,27 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .link { border: none; background: none; color: var(--brand); cursor: pointer; padding: 0; }
 .page-foot { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; color: var(--muted); }
 .error-text { color: #b42318; }
+
+/* 图表角色授权页 */
+.block-title { font-size: 15px; margin: 22px 0 8px; padding-left: 8px; border-left: 3px solid var(--brand); }
+.banner { border-radius: 6px; padding: 8px 12px; margin: 8px 0; font-size: 13px; }
+.banner.ok { background: #ecfdf3; border: 1px solid #75e0a7; color: #067647; }
+.banner.error { background: #fef3f2; border: 1px solid #fda29b; color: #b42318; }
+.tag { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 12px; }
+.tag-ok { background: #ecfdf3; color: #067647; border: 1px solid #75e0a7; }
+.tag-warn { background: #fffaeb; color: #b54708; border: 1px solid #fedf89; }
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.auth-card { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; }
+.auth-card header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; font-size: 13px; }
+.auth-card .muted { font-size: 12px; margin: 4px 0; }
+.data-table.inner { font-size: 12px; }
+.data-table.inner th, .data-table.inner td { padding: 5px 6px; }
+.version-box { margin: 8px 0; font-size: 13px; }
+.version-box summary { cursor: pointer; color: var(--brand); margin-bottom: 6px; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; margin: 10px 0; }
+.toolbar label { font-size: 13px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+.toolbar select { padding: 5px 8px; border: 1px solid var(--border); border-radius: 6px; }
+.dim-picker { display: flex; gap: 12px; }
+.check { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; cursor: pointer; }
+.filter-expose { display: flex; gap: 16px; font-size: 13px; }
+.muted { color: var(--muted); font-size: 12px; }

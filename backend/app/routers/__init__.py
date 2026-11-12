@@ -12,6 +12,7 @@ from app.routers import query as router_query
 from app.routers import experiment as router_experiment
 from app.routers import dataset as router_dataset
 from app.routers import chart as router_chart
+from app.routers import chart_auth as router_chart_auth
 from app.routers import report as router_report
 from app.routers import service as router_service
 from app.routers import dashboard as router_dashboard
@@ -23,4 +24,4 @@ from app.routers import cache as router_cache
 from app.routers import model as router_model
 from app.routers import log as router_log
 
-ROUTERS = [router_indicator, router_datasource, router_query, router_experiment, router_dataset, router_chart, router_report, router_service, router_dashboard, router_dimension, router_filter, router_schedule, router_export, router_cache, router_model, router_log]
+ROUTERS = [router_indicator, router_datasource, router_query, router_experiment, router_dataset, router_chart, router_chart_auth, router_report, router_service, router_dashboard, router_dimension, router_filter, router_schedule, router_export, router_cache, router_model, router_log]
